@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "total_records": 9,
+    "clean": 0,
+    "clean_pct": 0.0,
+    "warnings": 9,
+    "critical": 0
+  },
+  "breakdown": {
+    "inverted_market": 0,
+    "stale_timestamps": 9,
+    "wide_spread": 0,
+    "zero_volume": 1,
+    "parity_violations": 0,
+    "iv_surface_anomalies": 1
+  },
+  "parity_violations": [],
+  "iv_anomalies": [
+    {
+      "symbol": "BANKNIFTY",
+      "rule": "INVERTED_TERM_STRUCTURE",
+      "severity": "WARNING",
+      "near_expiry": "2024-03-28T00:00:00.000000",
+      "far_expiry": "2024-03-28T00:00:00.000000",
+      "near_iv": 0.195,
+      "far_iv": 0.0
+    }
+  ]
+}
